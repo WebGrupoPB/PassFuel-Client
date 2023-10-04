@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Nominee';
+  src: url('../assets/fonts/Nominee-CondensedItalic.ttf') format('truetype');
+}
+
+
+body {
+  font-family: 'Nominee', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header { 
+background-color: #E53F15;
+width: 100%;
+height: 12.5vh;
+display: flex;
+justify-content: center;
+min-width: 100%;
+position: sticky;
+top: 0;
+}

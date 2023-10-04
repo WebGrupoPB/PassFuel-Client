@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Moderat';
+    src: url('../assets/fonts/Moderat-Regular.ttf') format('truetype');
+  }
+
+$white: #fff;
+
+:root {
+	margin: 0;
+	padding: 0;
+	font: {
+		family: 'Moderat';
+	}
+}
+
+
+html,
+body, 
+#app {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	position: relative;
+	animation: fadeIn 700ms ease-in-out forwards;
+}
+
+
+section.wrapper {
+    position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	
+	transition: background-image 700ms ease-in-out;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: transparent;
+}
+
+aside.panel {
+    
+	width: 40vw;
+	height: 100%;
+	background-color: transparent;
+	transition: background 700ms ease-in-out;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+
+
+	
+	h2.panel-header,
+	p.panel-info {
+		color: #fff;
+		margin: 0;
+		padding: 0rem 3.5rem;
+	}
+
+	h2.panel-header {
+		color: #fff;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font: {
+			weight: bolder;
+			size: 2.5rem;
+		}
+		text-transform: capitalize;
+	}
+	p.panel-info {
+		font: {
+			size: 1.2rem;
+		}
+		line-height: 1.5em;
+	}
+
+	table.panel-table {
+		color: #fff;
+		position: relative;
+		left: 2rem;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+div.overlay-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+}
+
+img.icons-banner {
+	position: relative;
+	right: 10%;
+	
+}
+
+
+

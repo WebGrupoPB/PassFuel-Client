@@ -1,0 +1,363 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../assets/fonts/Century Gothic.ttf') format('truetype');
+}
+
+
+
+header { 
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+
+.hero-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 105vh;
+}
+
+
+.hero-slider{
+  width: 95%;
+  height: 100vh;
+}
+
+.separador-pass {
+  margin: 5vh 0;
+  width: 100%;
+  height: auto;
+}
+
+.articuloPass-space {
+  margin: 5vh 0 20vh 0;
+  /* background-color: blue; */
+  width: 100%;
+  height: 75vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.articuloPass {
+  position: relative;
+  background-color: #E53F15;
+  width: 95%;
+  height: 75vh;
+}
+
+.articuloPass > .fotoHome1 {
+  position: absolute;
+  left: 0;
+  bottom: 2vh;
+  width: auto;
+  height: 52vh;
+  z-index: 1;
+}
+
+.articuloPass > .fotoHome2 {
+  position: absolute;
+  left: 15%;
+  top: 0;
+  width: auto;
+  height: 62vh;
+}
+
+.articuloPass > .articuloSpace1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background-color: #fff;
+  border: 1px solid #CBCBCB;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+  width: 45vw;
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.articuloPass > .articuloSpace1 > .articuloText {
+  margin-left: 5vh;
+  /* background-color: #E53F15; */
+  width: 80%;
+  height: 90%;
+  color: #000;
+}
+
+.articuloText > h2 {
+  padding: 3vh 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.articuloText > p {
+  font-family: 'Century Gothic';
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.articuloPass > .articuloSpace2 {
+  position: absolute;
+  bottom: -10vh;
+  left: 0;
+
+  background-color: #fff;
+  border: 1px solid #CBCBCB;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+  width: 45vw;
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.articuloPass > .articuloSpace2 > .articuloText {
+  margin-left: 5vh;
+  /* background-color: #E53F15; */
+  width: 80%;
+  height: 90%;
+  color: #000;
+}
+
+.articuloPass > .fotoHome3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: 70vh;
+}
+
+.articuloPass > .articuloSpace3 {
+  position: absolute;
+  top: 0vh;
+  right: 0;
+
+  background-color: #fff;
+  border: 1px solid #CBCBCB;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+  width: 45vw;
+  height: 75vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.articuloPass > .articuloSpace3 > .articuloText {
+  margin-left: 10vh;
+  /* background-color: #E53F15; */
+  width: 80%;
+  height: 90%;
+  color: #000;
+}
+
+.articuloPass > .fotoHome4 {
+  position: absolute;
+  top: 7vh;
+  left: 8vw;
+  width: auto;
+  height: 60vh;
+  z-index: 1;
+}
+
+.ubicaciones-section {
+  background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/MAPA.png");
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+
+  margin-bottom: 5vh;
+}
+
+.ubicaciones-section > .overlay-ubicaciones {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.text-container {
+  /* background-color: blue; */
+  width: 75%;
+  height: 75%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.text-container > img {
+  width: 8vw;
+  height: auto;
+
+  margin-bottom: 1rem;
+}
+
+.text-container > h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 800;
+
+  margin: 0.2rem 0;
+}
+
+.text-container > p {
+  color: #fff;
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 0;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.span-ubi{
+  color: #FAC02E;
+}
+
+.maps-icons {
+  width: 12%;
+  height: 15%;
+  background-color: transparent;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.articuloPass-space2 {
+  margin: 5vh 0 20vh 0;
+  background-color: blue;
+  width: 100%;
+  height: 120vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.articuloPass2 {
+  position: relative;
+  background-color: #E53F15;
+  width: 95%;
+  height: 120vh;
+}
+
+.articuloPass2 .fotoHome5 {
+  position: relative;
+  width: auto;
+  height: 120vh;
+
+}
+
+.articuloPass2 .fotoHome6 {
+  position: absolute;
+  bottom: 2vh;
+  left: 41vw;
+  width: auto;
+  height: 58vh;
+
+}
+
+.articuloPass2 > .articuloSpace3 {
+  position: absolute;
+  bottom: 2vh;
+  right: 0;
+
+  background-color: #fff;
+  border: 1px solid #CBCBCB;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+  width: 28vw;
+  height: 60vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.articuloPass2 > .articuloSpace3 > .articuloText {
+  margin-left: 0vh;
+  background-color: #E53F15;
+  width: 80%;
+  height: 90%;
+  color: #000;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start; */
+}
+
+.servicios-section {
+  position: relative;
+  top: 125vh;
+  background-color: #E53F15;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding: 5vh 0;
+}
+
+.servicios-section h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.services-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: black; */
+  width: 95%;
+  height: 50vh;
+
+  gap: 4vw;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-item img {
+  width: 12vw;
+  height: auto;
+}
+
+.icon-item h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.footerHome {
+  position: relative;
+  top: 125vh;
+}
+  
