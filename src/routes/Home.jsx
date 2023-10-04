@@ -115,7 +115,8 @@ const Home = () => {
           </section>
 
           <section className='ubicaciones-section'>
-            <aside className='overlay-ubicaciones'>
+            
+            <a href="https://www.google.com/maps/search/Pass+fuel/@14.851027,-91.6473214,9z?entry=ttu" target='__blank' className='overlay-ubicaciones' >
 
               <div className='text-container'>
                 <img src={gpsIcon} alt="gps-icon" />
@@ -133,7 +134,7 @@ const Home = () => {
                 <img src={wazeIcon} alt="waze-icon" />
               </div>
 
-            </aside>
+            </a>
           </section>  
 
 
@@ -146,20 +147,54 @@ const Home = () => {
             <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/fotoHome5.png" alt="fotoHome5" className='fotoHome5' />
 
             <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/fotoHome6.png" alt="fotoHome6" className='fotoHome6' /> 
-              
-            <div className='articuloSpace3'>
-                <div className='articuloText'>
-                  <h2>Seguridad</h2>  
-                  <p>
-                    Al respecto de nuestra <b>seguridad</b> contamos con cámaras de vigilancia a todo momento que son 
-                    monitoreados a tiempo real  y contamos con personal capacitado para actuar en casos de <b>emergencia</b>.
-                  </p>
 
-                  
-                </div>
+
+            <div className='articuloSpace3'>
+              <div className='articuloText3'>
+                
+                <h2>Calidad</h2>  
+                <p>
+                  Entre nuestros <b>valores</b> tenemos como prioridad la transparencia y la honestidad, contamos con una excelente atención al cliente.
+                  Contamos con la mejor higiene y limpieza que puedas imaginar cumpliendo las normativas.
+                </p>
+                
               </div>
+            </div>
+
+
+            <div className='articuloSpace4'>
+              <div className='articuloText4'>
+                <h2>Seguridad</h2>  
+                <p>
+                  Al respecto de nuestra <b>seguridad</b> contamos con cámaras de vigilancia a todo momento que son 
+                  monitoreados a tiempo real  y contamos con personal capacitado para actuar en casos de <b>emergencia</b>.
+                </p>
+              </div>
+            </div>
             
             </article>
+          </section>
+
+
+          <section className='promocion-container'>
+            <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/lubricante-promociones.png" alt="lubricante-promociones" className='lubricante-promociones' />
+            
+            <div className='text-promociones' >
+              
+              <article>
+                <h2>Aceite Pass</h2>
+
+                <p>
+                  Descubre el secreto
+                  para un rendimiento
+                  excepcional de tu motor!
+                </p>
+              </article>
+              
+
+              <a href="http://" target="_blank"><span>ver más</span></a>
+            </div>
+
           </section>
 
 
