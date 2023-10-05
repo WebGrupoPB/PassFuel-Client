@@ -26,7 +26,7 @@ const dataHero = [
 const Home = () => {
   return (
     <>
-        <header>
+        <header className='header-navbar'>
             <Navbar />
         </header>
 
@@ -40,10 +40,10 @@ const Home = () => {
             </section>
           </div>
 
-          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' />
+          {/* <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' /> */}
 
 
-          <section className='articuloPass-space'>
+          {/* <section className='articuloPass-space'>
             <article className='articuloPass'>
               <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/fotoHome1.png" alt="fotoHome1" className='fotoHome1' />
 
@@ -197,6 +197,89 @@ const Home = () => {
 
           </section>
 
+          <section className='comentarios-section'>
+            <div className='comentarios-space'>
+              <h2>Comentarios</h2>
+
+              <div className='div-comentarios'>
+                <aside className='comentario1'>
+                  <article className='comentario-box'>
+                    <article className='comentario-article'>
+                      <p>
+                        Me pareció una estación muy limpia
+                        segura y ordenada en todos los aspectos,
+                        también los trabajadores fueron muy 
+                        amables al ofrecerme ayuda en chequear mi
+                        aceite y calibrar mis llantas.
+                      </p>
+                    </article>
+
+                    <header className='perfil-comentario'>
+                      <div className='perfil-img'>
+                        <img src="https://s3.amazonaws.com/tango.store/empleos/empleoPerfil.png" alt="comentario-profile" />
+                      </div>
+
+                      <div className='perfil-name'>
+                        <h5>Andres Tobar</h5>
+                        <p>08/2023</p>
+                      </div>
+                    </header>
+                  </article>
+                </aside>
+
+                <aside className='comentario2'>
+                  <article className='comentario-box'>
+                    <article className='comentario-article'>
+                      <p>
+                        Me pareció una estación muy limpia
+                        segura y ordenada en todos los aspectos,
+                        también los trabajadores fueron muy 
+                        amables al ofrecerme ayuda en chequear mi
+                        aceite y calibrar mis llantas.
+                      </p>
+                    </article>
+
+                    <header className='perfil-comentario'>
+                      <div className='perfil-img'>
+                        <img src="https://s3.amazonaws.com/tango.store/empleos/empleoPerfil.png" alt="comentario-profile" />
+                      </div>
+
+                      <div className='perfil-name'>
+                        <h5>Andres Tobar</h5>
+                        <p>08/2023</p>
+                      </div>
+                    </header>
+                  </article>
+                </aside>
+
+                <aside className='comentario3'>
+                  <article className='comentario-box'>
+                    <article className='comentario-article'>
+                      <p>
+                        Me pareció una estación muy limpia
+                        segura y ordenada en todos los aspectos,
+                        también los trabajadores fueron muy 
+                        amables al ofrecerme ayuda en chequear mi
+                        aceite y calibrar mis llantas.
+                      </p>
+                    </article>
+
+                    <header className='perfil-comentario'>
+                      <div className='perfil-img'>
+                        <img src="https://s3.amazonaws.com/tango.store/empleos/empleoPerfil.png" alt="comentario-profile" />
+                      </div>
+
+                      <div className='perfil-name'>
+                        <h5>Andres Tobar</h5>
+                        <p>08/2023</p>
+                      </div>
+                    </header>
+                  </article>
+                </aside>
+              </div>
+            </div>
+          </section>
+
 
           <section className='servicios-section'  id='servicios'>
             <h1>Servicios que ofrecemos</h1>
@@ -226,7 +309,7 @@ const Home = () => {
 
           <footer className='footerHome'>
             <Footer />
-          </footer>
+          </footer> */}
 
 
         </main>

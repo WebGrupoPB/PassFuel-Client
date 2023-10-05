@@ -132,14 +132,14 @@ const Slider = ({ dataSlider, panelInfo }) => {
 
     
      // Llama a la función para actualizar los estilos cuando cambie panelInfo
-  useEffect(() => {
+ /*  useEffect(() => {
     updateWrapperStyle();
     window.addEventListener('resize', updateWrapperStyle);
 
     return () => {
       window.removeEventListener('resize', updateWrapperStyle);
     };
-  }, [panelInfo]);
+  }, [panelInfo]); */
 
 
   // cambia el background del slider por el id

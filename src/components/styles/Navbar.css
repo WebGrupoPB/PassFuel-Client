@@ -73,7 +73,7 @@
 
   .storeButton img {
     position: relative;
-    top: .5rem;
+    top: 1.5vh;
     width: 2vw;
     height: auto;
   }
@@ -99,6 +99,8 @@
   }
 
   .storeButton img {
+    position: relative;
+    top: 1vh;
     width: 2vw;
     height: auto;
   }
@@ -111,6 +113,13 @@
     width: 15vw;
     height: 10vh;
   } */
+  
+  .storeButton img {
+    position: relative;
+    top: 1vh;
+    width: 2vw;
+    height: auto;
+  }
 }
 
 
@@ -128,7 +137,7 @@
   .menuMovil {
     background-color: rgba(0, 0, 0, 0.8); 
     width: 75%;
-    height: 60vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,7 +189,7 @@
   }
 
   .menuMovil .navbar-links a{    
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .navbar-links a.active {
@@ -194,7 +203,11 @@
 /*************** Pantallas moviles talla S, 320px *******************/
 @media (max-width: 360px) {
   .menuMovil .navbar-links a{    
-    font-size: 0.85rem;
+    font-size: 1rem;
+  }
+
+  .menuMovil .navbar-links {    
+    gap: 2.5rem;
   }
 }
 

@@ -5,7 +5,7 @@
 
 
 
-header { 
+.header-navbar { 
   position: fixed;
   top: 0;
   z-index: 999;
@@ -378,6 +378,7 @@ header {
   height: 100vh;
 
   position: relative;
+  margin-bottom: 10vh;
 }
 
 .promocion-container .lubricante-promociones {
@@ -430,10 +431,173 @@ header {
   font-size: 1.5rem;
 }
 
+.comentarios-section {
+  /* background-color: blue; */
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 20vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comentarios-space {
+  /* background-color: yellow; */
+  width: 95%;
+  height: 80vh;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+
+}
+
+.comentarios-space > h2 {
+  position: relative;
+  right: 5vw;
+
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.comentarios-space .div-comentarios {
+  /* background-color: green; */
+  width: 100%;
+  height: 70vh;
+
+  display: flex;
+  align-items: start;
+  
+}
+
+.div-comentarios .comentario1 {
+  background-color: #fff;
+  width: calc(100%/3);
+  height: 60%;
+
+  border: 1px solid #9B9B9B;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-comentarios .comentario2 {
+  position: relative;
+  top: 40%;
+
+  background-color: #fff;
+  width: calc(100%/3);
+  height: 60%;
+
+  border: 1px solid #9B9B9B;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-comentarios .comentario3 {
+  background-color: #fff;
+  width: calc(100%/3);
+  height: 60%;
+
+  border: 1px solid #9B9B9B;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comentario-box {
+  /* background-color: yellow; */
+  width: 92%;
+  height: 95%;
+
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.comentario-box .comentario-article {
+  /* background-color: green; */
+  width: 100%;
+  height: 60%;
+}
+
+.comentario-box .comentario-article > p {
+  color: #000;
+  font-size: 1.15rem;
+  font-weight: 500;
+
+  margin: 2vh 0;
+}
+
+.comentario-box .perfil-comentario {
+  /* background-color: red; */
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  align-items: end;
+  justify-content: left;
+
+  gap: 1rem;
+}
+
+.perfil-comentario .perfil-img {
+  /* background-color: blue; */
+  width: 5rem;
+  height: 5rem;
+
+ 
+}
+
+.perfil-img img {
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+}
+
+.perfil-comentario .perfil-name {
+  /* background-color: green; */
+  width: 60%;
+  height: 5rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.perfil-name h5 {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  margin: .1rem 0;
+}
+
+.perfil-name p {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+
+  margin: .1rem 0;
+}
 
 .servicios-section {
   position: relative;
-  top: 125vh;
+  /* top: 125vh; */
   background-color: #E53F15;
   width: 100%;
   height: 80vh;
@@ -481,6 +645,6 @@ header {
 
 .footerHome {
   position: relative;
-  top: 125vh;
+  /* top: 125vh; */
 }
   

@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-header { 
+.header-navbar { 
 background-color: #E53F15;
 width: 100%;
 height: 12.5vh;
