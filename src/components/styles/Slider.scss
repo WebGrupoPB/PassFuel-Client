@@ -33,7 +33,7 @@ section.wrapper {
     position: relative;
 	width: 100%;
 	height: 100%;
-	background-size: contain;
+	background-size: 100% 100%;
 	
 	transition: background-image 700ms ease-in-out;
 	display: flex;
@@ -188,7 +188,8 @@ img.icons-banner {
 		position: relative;
 		width: 100%;
 		height: 100%;
-		background-size: cover;
+		background-size: 100% 100%;
+		
 		
 		transition: background-image 700ms ease-in-out;
 		display: flex;
@@ -201,7 +202,7 @@ img.icons-banner {
 		
 		width: 40vw;
 		height: 100%;
-		background-color: transparent;
+		/* background-color: green; */
 		transition: background 700ms ease-in-out;
 	
 		display: flex;
@@ -224,15 +225,15 @@ img.icons-banner {
 			padding-bottom: 1em;
 			font: {
 				weight: bolder;
-				size: 2.5rem;
+				size: 2rem;
 			}
 			text-transform: capitalize;
 		}
 		p.panel-info {
 			font: {
-				size: 1.2rem;
+				size: 1rem;
 			}
-			line-height: 1.5em;
+			line-height: 1.2em;
 		}
 	
 		table.panel-table {
@@ -265,7 +266,7 @@ img.icons-banner {
 		right: 10%;
 		
 		width: auto;
-		height: 60vh;
+		height: 25vh;
 	}
 	
 }

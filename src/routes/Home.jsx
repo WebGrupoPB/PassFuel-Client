@@ -40,10 +40,10 @@ const Home = () => {
             </section>
           </div>
 
-          {/* <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' /> */}
+          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' />
 
 
-          {/* <section className='articuloPass-space'>
+          <section className='articuloPass-space'>
             <article className='articuloPass'>
               <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/fotoHome1.png" alt="fotoHome1" className='fotoHome1' />
 
@@ -176,7 +176,7 @@ const Home = () => {
           </section>
 
 
-          <section className='promocion-container'>
+          {/* <section className='promocion-container'>
             <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/lubricante-promociones.png" alt="lubricante-promociones" className='lubricante-promociones' />
             
             <div className='text-promociones' >
@@ -195,7 +195,7 @@ const Home = () => {
               <a href="http://" target="_blank"><span>ver más</span></a>
             </div>
 
-          </section>
+          </section> */}
 
           <section className='comentarios-section'>
             <div className='comentarios-space'>
@@ -309,7 +309,7 @@ const Home = () => {
 
           <footer className='footerHome'>
             <Footer />
-          </footer> */}
+          </footer>
 
 
         </main>
