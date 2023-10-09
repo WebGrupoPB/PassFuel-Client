@@ -115,7 +115,7 @@ img.icons-banner {
 
 
 /*************** Pantallas Desktop/Tv o mayores 1440px *******************/
-@media (min-width: 1441px) {
+@media (min-width: 2000px) {
 
 	
 	aside.panel {
@@ -269,4 +269,92 @@ img.icons-banner {
 		height: 25vh;
 	}
 	
+}
+
+/*************** Pantallas moviles talla L/M/S, 425px *******************/
+@media (max-width: 600px) {
+	section.wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		
+		
+		transition: background-image 700ms ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: transparent;
+	}
+	
+	aside.panel {
+		
+		width: 40vw;
+		height: 100%;
+		/* background-color: green; */
+		transition: background 700ms ease-in-out;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	
+	
+		
+		h2.panel-header,
+		p.panel-info {
+			color: #fff;
+			margin: 0;
+			padding: 0rem 3.5rem;
+		}
+	
+		h2.panel-header {
+			color: #fff;
+			padding-top: 1em;
+			padding-bottom: 1em;
+			font: {
+				weight: bolder;
+				size: 1.5rem;
+			}
+			text-transform: capitalize;
+		}
+		p.panel-info {
+			font: {
+				size: .7rem;
+			}
+			line-height: 1.2em;
+		}
+	
+		table.panel-table {
+			color: #fff;
+			position: relative;
+			left: 2rem;
+		}
+	}
+	
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	div.overlay-wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+		width: 100%;
+		height: 100%;
+	}
+	
+	img.icons-banner {
+		position: relative;
+		right: 10%;
+		
+		width: auto;
+		height: 20vh;
+	}
 }

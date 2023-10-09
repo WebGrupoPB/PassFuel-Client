@@ -9,7 +9,7 @@ import './styles/Error.css';
 const Error = () => {
   return (
     <div>
-        <header>
+        <header className='header-navbar'>
             <Navbar />
         </header>
 

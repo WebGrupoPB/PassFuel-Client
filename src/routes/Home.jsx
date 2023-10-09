@@ -40,7 +40,7 @@ const Home = () => {
             </section>
           </div>
 
-          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' />
+          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' id='about'/>
 
 
           <section className='articuloPass-space'>
@@ -114,6 +114,8 @@ const Home = () => {
             </article>
           </section>
 
+          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' id='estaciones'/>
+
           <section className='ubicaciones-section'>
             
             <a href="https://www.google.com/maps/search/Pass+fuel/@14.851027,-91.6473214,9z?entry=ttu" target='__blank' className='overlay-ubicaciones' >
@@ -176,7 +178,9 @@ const Home = () => {
           </section>
 
 
-          {/* <section className='promocion-container'>
+          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' id='promocion'/>
+
+          <section className='promocion-container'>
             <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/lubricante-promociones.png" alt="lubricante-promociones" className='lubricante-promociones' />
             
             <div className='text-promociones' >
@@ -195,7 +199,7 @@ const Home = () => {
               <a href="http://" target="_blank"><span>ver más</span></a>
             </div>
 
-          </section> */}
+          </section>
 
           <section className='comentarios-section'>
             <div className='comentarios-space'>

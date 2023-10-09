@@ -59,9 +59,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#" onClick={scrollToTop}>
+        <NavLink to="#" onClick={scrollToTop}>
           <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/Pass-Logo.png" alt="logo-tango" />
-        </a>
+        </NavLink >
       </div>
 
       <div className='showMenu'>
@@ -87,29 +87,34 @@ const Navbar = () => {
               isActive={(match, location) => {
                 return location.hash === '' || location.hash === '#/';
               }}
+              onClick={scrollToTopq}
             >
               Inicio
             </NavLink>
 
-          <a href="/#promociones">
+            <a href="/#about">
             ¿Quiénes somos?
           </a>
 
-          <a href="/#servicios">
+
+          <a href="/#estaciones">
             Estaciones
           </a>
 
-          <NavLink to={'/menu'} activeClassName="active">
+
+          {/* <a href="">
             Empleos
-          </NavLink>
+          </a> */}
+                    
 
-          <NavLink to={'/empleos'} activeClassName="active">
+          <a href="/#promocion">
             Promociones
-          </NavLink>
+          </a>
+            
 
-          <NavLink to={'/empleos'} activeClassName="active">
+          <a href="/#servicios">
             Servicios
-          </NavLink>
+          </a>
 
             <a href="#store">
               <span className='storeButton'>Tango Store <img src={paidSvg} alt="canasta-compra" /> </span>
@@ -124,25 +129,31 @@ const Navbar = () => {
             Inicio
           </NavLink>
 
-          <a href="/#promociones">
+          <a href="/#about">
             ¿Quiénes somos?
           </a>
 
-          <a href="/#servicios">
+
+          <a href="/#estaciones">
             Estaciones
           </a>
 
-          <NavLink to={'/menu'} activeClassName="active">
+
+          {/* <a href="">
             Empleos
-          </NavLink>
+          </a> */}
+                    
 
-          <NavLink to={'/empleos'} activeClassName="active">
+          <a href="/#promocion">
             Promociones
-          </NavLink>
+          </a>
+            
 
-          <NavLink to={'/empleos'} activeClassName="active">
+          <a href="/#servicios">
             Servicios
-          </NavLink>
+          </a>
+            
+          
         </div>
       </div>
 

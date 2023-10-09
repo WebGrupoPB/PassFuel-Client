@@ -657,7 +657,7 @@
 }
 
 /*************** Pantallas Desktop/Tv o mayores 1440px *******************/
-@media (min-width: 1441px) {
+@media (min-width: 2000px) {
 
   .articuloPass > .articuloSpace1 {
 
@@ -1223,7 +1223,7 @@
   
   .articuloPass-space2 {
     margin: 5vh 0 20vh 0;
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
     height: 100vh;
   
@@ -1233,7 +1233,7 @@
   
   .articuloPass2 {
     position: relative;
-    background-color: #E53F15;
+    /* background-color: #E53F15; */
     width: 95%;
     height: 100vh;
   }
@@ -1248,22 +1248,22 @@
   .articuloPass2 .fotoHome6 {
     position: absolute;
     bottom: 0vh;
-    left: 42vw;
+    left: 50.5%;
     width: auto;
-    height: 30vh;
+    height: 45vh;
   
   }
   
   .articuloPass2 > .articuloSpace3 {
     position: absolute;
-    top: 8vh;
-    right: 5vw;
+    top: 6vh;
+    right: 0vw;
   
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 25vw;
-    height: 25vh;
+    width: 50vw;
+    height: 40vh;
   
     display: flex;
     align-items: center;
@@ -1301,14 +1301,14 @@
   
   .articuloPass2 > .articuloSpace4 {
     position: absolute;
-    bottom: 0vh;
-    right: 0;
+    bottom: 5vh;
+    left: 0;
   
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 27vw;
-    height: 47vh;
+    width: 55vw;
+    height: 27vh;
   
     display: flex;
     align-items: center;
@@ -1346,7 +1346,7 @@
     background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/promocion-cover1.png");
     background-size: 100% 100%;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
   
     position: relative;
     margin-bottom: 10vh;
@@ -1354,20 +1354,20 @@
   
   .promocion-container .lubricante-promociones {
     width: auto;
-    height: 100vh;
+    height: 45vh;
   
     position: absolute;
-    bottom: -10vh;
+    bottom: -5vh;
   }
   
   .promocion-container .text-promociones {
     /* background-color: green; */
     width: 28vw;
-    height: 70vh;
+    height: 40vh;
   
     position: absolute;
     left: 21vw;
-    top: 10vh;
+    top: 5vh;
   
     display: flex;
     flex-direction: column;
@@ -1379,6 +1379,7 @@
     color: #fff;
     font-size: 3rem;
     font-weight: 800;
+    margin-top: 0.5rem;
   }
   
   .text-promociones > article > p {
@@ -1388,11 +1389,13 @@
   }
   
   .text-promociones > a  {
+    margin-top: 5vh;
     text-decoration: none;
     margin-bottom: 8vh;
   }
   
   .text-promociones > a > span {
+    margin-top: 5vh;
     background-color: transparent;
     padding: 1.5vh 1.5vw;
     border: 1px solid #fff;
@@ -1406,7 +1409,7 @@
     /* background-color: blue; */
     width: 100%;
     height: 80vh;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
   
     display: flex;
     align-items: center;
@@ -1448,7 +1451,7 @@
   .div-comentarios .comentario1 {
     background-color: #fff;
     width: calc(100%/3);
-    height: 60%;
+    height: 52%;
   
     border: 1px solid #9B9B9B;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1464,7 +1467,7 @@
   
     background-color: #fff;
     width: calc(100%/3);
-    height: 60%;
+    height: 52%;
   
     border: 1px solid #9B9B9B;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1477,7 +1480,7 @@
   .div-comentarios .comentario3 {
     background-color: #fff;
     width: calc(100%/3);
-    height: 60%;
+    height: 52%;
   
     border: 1px solid #9B9B9B;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1576,24 +1579,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    padding: 5vh 0;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
   }
   
   .servicios-section h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   
   .services-icons {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
   
     /* background-color: black; */
     width: 95%;
     height: 50vh;
   
-    gap: 4vw;
+    gap: 5vw;
   }
   
   .icon-item {
@@ -1604,13 +1608,13 @@
   }
   
   .icon-item img {
-    width: 12vw;
+    width: 20vw;
     height: auto;
   }
   
   .icon-item h3 {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
   
@@ -1643,7 +1647,7 @@
   }
   
   .articuloPass-space {
-    margin: 5vh 0 20vh 0;
+    margin: 5vh 0 10vh 0;
     /* background-color: blue; */
     width: 100%;
     height: 75vh;
@@ -1662,18 +1666,18 @@
   .articuloPass > .fotoHome1 {
     position: absolute;
     left: 0;
-    bottom: 2vh;
+    bottom: 0vh;
     width: auto;
-    height: 52vh;
+    height: 30vh;
     z-index: 1;
   }
   
   .articuloPass > .fotoHome2 {
     position: absolute;
-    left: 15%;
-    top: 0;
+    left: 31%;
+    top: 50%;
     width: auto;
-    height: 62vh;
+    height: 30vh;
   }
   
   .articuloPass > .articuloSpace1 {
@@ -1684,8 +1688,8 @@
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 45vw;
-    height: 70vh;
+    width: 100%;
+    height: 35vh;
   
     display: flex;
     align-items: center;
@@ -1701,27 +1705,27 @@
   }
   
   .articuloText > h2 {
-    padding: 3vh 0;
-    font-size: 2.5rem;
+    padding: 0vh 0;
+    font-size: 2rem;
     font-weight: 700;
   }
   
   .articuloText > p {
     font-family: 'Century Gothic';
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
   }
   
   .articuloPass > .articuloSpace2 {
     position: absolute;
-    bottom: -10vh;
+    bottom: 4vh;
     left: 0;
   
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 45vw;
-    height: 70vh;
+    width: 100%;
+    height: 35vh;
   
     display: flex;
     align-items: center;
@@ -1738,22 +1742,22 @@
   
   .articuloPass > .fotoHome3 {
     position: absolute;
-    top: 0;
+    top: 5%;
     right: 0;
     width: auto;
-    height: 70vh;
+    height: 30vh;
   }
   
   .articuloPass > .articuloSpace3 {
     position: absolute;
-    top: 0vh;
+    top: 3vh;
     right: 0;
   
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 45vw;
-    height: 75vh;
+    width: 100%;
+    height: 35vh;
   
     display: flex;
     align-items: center;
@@ -1761,7 +1765,7 @@
   }
   
   .articuloPass > .articuloSpace3 > .articuloText {
-    margin-left: 10vh;
+    margin-left: 5vh;
     /* background-color: #E53F15; */
     width: 80%;
     height: 90%;
@@ -1770,10 +1774,10 @@
   
   .articuloPass > .fotoHome4 {
     position: absolute;
-    top: 7vh;
+    top: 55%;
     left: 8vw;
     width: auto;
-    height: 60vh;
+    height: 30vh;
     z-index: 1;
   }
   
@@ -1817,7 +1821,7 @@
   }
   
   .text-container > img {
-    width: 8vw;
+    width: 15vw;
     height: auto;
   
     margin-bottom: 1rem;
@@ -1826,15 +1830,16 @@
   .text-container > h1 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
   
     margin: 0.2rem 0;
+    text-align: center;
   }
   
   .text-container > p {
     color: #fff;
-    font-size: 1.75rem;
+    font-size: 1.1rem;
     text-align: center;
     font-weight: 0;
     line-height: normal;
@@ -1846,7 +1851,7 @@
   }
   
   .maps-icons {
-    width: 12%;
+    width: 25%;
     height: 15%;
     background-color: transparent;
   
@@ -1864,7 +1869,7 @@
     margin: 5vh 0 20vh 0;
     /* background-color: blue; */
     width: 100%;
-    height: 120vh;
+    height: 170vh;
   
     display: flex;
     justify-content: center;
@@ -1874,35 +1879,37 @@
     position: relative;
     /* background-color: #E53F15; */
     width: 95%;
-    height: 120vh;
+    height: 170vh;
   }
   
   .articuloPass2 .fotoHome5 {
-    position: relative;
+    position: absolute;
+    top: 35vh;
+
     width: auto;
-    height: 120vh;
+    height: 55vh;
   
   }
   
   .articuloPass2 .fotoHome6 {
     position: absolute;
-    bottom: 0vh;
-    left: 42vw;
+    bottom: 35vh;
+    left: 19vw !important;
     width: auto;
-    height: 60vh;
+    height: 55vh;
   
   }
   
   .articuloPass2 > .articuloSpace3 {
     position: absolute;
-    top: 8vh;
-    right: 5vw;
+    top: 0vh;
+    right: 0vw;
   
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 45vw;
-    height: 45vh;
+    width: 100%;
+    height: 30vh;
   
     display: flex;
     align-items: center;
@@ -1924,7 +1931,7 @@
    
   .articuloText3 > h2 {
     margin: .1rem 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     transform: rotate(-90deg);
@@ -1932,7 +1939,7 @@
   
   .articuloText3 > p {
     font-family: 'Century Gothic';
-    font-size: 1.2rem;
+    font-size: .9rem;
     font-weight: 400;
     margin: .1rem 0;
   }
@@ -1946,8 +1953,8 @@
     background-color: #fff;
     border: 1px solid #CBCBCB;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
-    width: 27vw;
-    height: 47vh;
+    width: 100%;
+    height: 30vh;
   
     display: flex;
     align-items: center;
@@ -1969,14 +1976,14 @@
   
   .articuloText4 > h2 {
     margin: .5rem 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
   }
   
   .articuloText4 > p {
     font-family: 'Century Gothic';
-    font-size: 1.2rem;
+    font-size: .9rem;
     font-weight: 400;
     margin: .5rem 0;
   }
@@ -1985,7 +1992,7 @@
     background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/promocion-cover1.png");
     background-size: 100% 100%;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
   
     position: relative;
     margin-bottom: 10vh;
@@ -1993,20 +2000,20 @@
   
   .promocion-container .lubricante-promociones {
     width: auto;
-    height: 100vh;
+    height: 37vh;
   
     position: absolute;
-    bottom: -10vh;
+    bottom: -3vh;
   }
   
   .promocion-container .text-promociones {
     /* background-color: green; */
-    width: 28vw;
-    height: 70vh;
+    width: 45vw;
+    height: 45vh;
   
     position: absolute;
-    left: 21vw;
-    top: 10vh;
+    left: 23vw;
+    top: 0vh;
   
     display: flex;
     flex-direction: column;
@@ -2016,13 +2023,13 @@
   
   .text-promociones > article > h2 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
   }
   
   .text-promociones > article > p {
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
   }
   
@@ -2038,14 +2045,14 @@
     border-radius: .5rem;
   
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   
   .comentarios-section {
     /* background-color: blue; */
     width: 100%;
-    height: 80vh;
-    margin-bottom: 20vh;
+    height: 120vh;
+    margin-bottom: 10vh;
   
     display: flex;
     align-items: center;
@@ -2055,7 +2062,7 @@
   .comentarios-space {
     /* background-color: yellow; */
     width: 95%;
-    height: 80vh;
+    height: 120vh;
     position: relative;
   
     display: flex;
@@ -2069,7 +2076,7 @@
     position: relative;
     right: 5vw;
   
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
@@ -2077,16 +2084,19 @@
   .comentarios-space .div-comentarios {
     /* background-color: green; */
     width: 100%;
-    height: 70vh;
+    height: 100vh;
   
     display: flex;
-    align-items: start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
+    gap: 3vh;
   }
   
   .div-comentarios .comentario1 {
     background-color: #fff;
-    width: calc(100%/3);
+    width: calc(95%);
     height: 60%;
   
     border: 1px solid #9B9B9B;
@@ -2099,10 +2109,10 @@
   
   .div-comentarios .comentario2 {
     position: relative;
-    top: 40%;
+    top: 0%;
   
     background-color: #fff;
-    width: calc(100%/3);
+    width: calc(95%);
     height: 60%;
   
     border: 1px solid #9B9B9B;
@@ -2115,7 +2125,7 @@
   
   .div-comentarios .comentario3 {
     background-color: #fff;
-    width: calc(100%/3);
+    width: calc(95%);
     height: 60%;
   
     border: 1px solid #9B9B9B;
@@ -2208,19 +2218,20 @@
   .servicios-section {
     position: relative;
     /* top: 125vh; */
-    background-color: #E53F15;
+    background-color:  #E53F15;
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    padding: 5vh 0;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
   }
   
   .servicios-section h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 2rem;
   }
   
   .services-icons {
@@ -2240,16 +2251,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin: .75rem;
   }
   
   .icon-item img {
-    width: 12vw;
+    width: 15vw;
     height: auto;
   }
   
   .icon-item h3 {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 1em;
     text-align: center;
   }
   
@@ -2259,3 +2272,646 @@
   }
 }
   
+/*************** Pantallas moviles talla L/M/S, 425px *******************/
+@media (max-width: 320px) {
+  .hero-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+  }
+  
+  
+  .hero-slider{
+    width: 95%;
+    height: 45vh;
+  }
+  
+  .separador-pass {
+    margin: 5vh 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .articuloPass-space {
+    margin: 5vh 0 10vh 0;
+    /* background-color: blue; */
+    width: 100%;
+    height: 75vh;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .articuloPass {
+    position: relative;
+    /* background-color: #E53F15; */
+    width: 95%;
+    height: 75vh;
+  }
+  
+  .articuloPass > .fotoHome1 {
+    position: absolute;
+    left: 0;
+    bottom: 0vh;
+    width: auto;
+    height: 30vh;
+    z-index: 1;
+  }
+  
+  .articuloPass > .fotoHome2 {
+    position: absolute;
+    left: 31%;
+    top: 50%;
+    width: auto;
+    height: 30vh;
+  }
+  
+  .articuloPass > .articuloSpace1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+    width: 100%;
+    height: 40vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .articuloPass > .articuloSpace1 > .articuloText {
+    margin-left: 5vh;
+    /* background-color: #E53F15; */
+    width: 80%;
+    height: 90%;
+    color: #000;
+  }
+  
+  .articuloText > h2 {
+    padding: 0vh 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .articuloText > p {
+    font-family: 'Century Gothic';
+    font-size: .7rem;
+    font-weight: 400;
+  }
+  
+  .articuloPass > .articuloSpace2 {
+    position: absolute;
+    bottom: 4vh;
+    left: 0;
+  
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+    width: 100%;
+    height: 35vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .articuloPass > .articuloSpace2 > .articuloText {
+    margin-left: 5vh;
+    /* background-color: #E53F15; */
+    width: 80%;
+    height: 90%;
+    color: #000;
+  }
+  
+  .articuloPass > .fotoHome3 {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: auto;
+    height: 30vh;
+  }
+  
+  .articuloPass > .articuloSpace3 {
+    position: absolute;
+    top: 3vh;
+    right: 0;
+  
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+    width: 100%;
+    height: 40vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .articuloPass > .articuloSpace3 > .articuloText {
+    margin-left: 5vh;
+    /* background-color: #E53F15; */
+    width: 80%;
+    height: 90%;
+    color: #000;
+  }
+  
+  .articuloPass > .fotoHome4 {
+    position: absolute;
+    top: 55%;
+    left: 8vw;
+    width: auto;
+    height: 30vh;
+    z-index: 1;
+  }
+
+  .ubicaciones-section {
+    background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/MAPA.png");
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+  
+    margin-bottom: 5vh;
+  }
+  
+  
+  
+  .ubicaciones-section > .overlay-ubicaciones {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .text-container {
+    /* background-color: blue; */
+    width: 75%;
+    height: 75%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .text-container > img {
+    width: 15vw;
+    height: auto;
+  
+    margin-bottom: 1rem;
+  }
+  
+  .text-container > h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+  
+    margin: 0.2rem 0;
+  }
+  
+  .text-container > p {
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 0;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  .maps-icons {
+    width: 25%;
+    height: 15%;
+    background-color: transparent;
+  
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+  }
+  
+  .articuloPass-space2 {
+    margin: 5vh 0 20vh 0;
+    /* background-color: blue; */
+    width: 100%;
+    height: 170vh;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .articuloPass2 {
+    position: relative;
+    /* background-color: #E53F15; */
+    width: 95%;
+    height: 170vh;
+  }
+  
+  .articuloPass2 .fotoHome5 {
+    position: absolute;
+    top: 35vh;
+
+    width: auto;
+    height: 55vh;
+  
+  }
+  
+  .articuloPass2 .fotoHome6 {
+    position: absolute;
+    bottom: 35vh;
+    left: 19vw !important;
+    width: auto;
+    height: 55vh;
+  
+  }
+  
+  .articuloPass2 > .articuloSpace3 {
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+  
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+    width: 100%;
+    height: 30vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .articuloPass2 > .articuloSpace3 > .articuloText3 {
+    margin-left: 0vh;
+    /* background-color: #E53F15; */
+    width: 95%;
+    height: 95%;
+    color: #000;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   
+  .articuloText3 > h2 {
+    margin: .1rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+  }
+  
+  .articuloText3 > p {
+    font-family: 'Century Gothic';
+    font-size: .7rem;
+    font-weight: 400;
+    margin: .1rem 0;
+  }
+  
+  
+  .articuloPass2 > .articuloSpace4 {
+    position: absolute;
+    bottom: 0vh;
+    right: 0;
+  
+    background-color: #fff;
+    border: 1px solid #CBCBCB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Cambia los valores según tus preferencias */
+    width: 100%;
+    height: 30vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .articuloPass2 > .articuloSpace4 > .articuloText4 {
+    margin-left: 0vh;
+    /* background-color: #E53F15; */
+    width: 95%;
+    height: 95%;
+    color: #000;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  .articuloText4 > h2 {
+    margin: .5rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .articuloText4 > p {
+    font-family: 'Century Gothic';
+    font-size: .8rem;
+    font-weight: 400;
+    margin: .5rem 0;
+  }
+  
+  .promocion-container {
+    background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/promocion-cover1.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vh;
+  
+    position: relative;
+    margin-bottom: 10vh;
+  }
+  
+  .promocion-container .lubricante-promociones {
+    width: auto;
+    height: 37vh;
+  
+    position: absolute;
+    bottom: -3vh;
+  }
+  
+  .promocion-container .text-promociones {
+    /* background-color: green; */
+    width: 50vw;
+    height: 45vh;
+  
+    position: absolute;
+    left: 23vw;
+    top: 0vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  .text-promociones > article > h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .text-promociones > article > p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .text-promociones > a  {
+    text-decoration: none;
+    margin-bottom: 8vh;
+  }
+  
+  .text-promociones > a > span {
+    background-color: transparent;
+    padding: 1.5vh 1.5vw;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+  
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .comentarios-section {
+    /* background-color: blue; */
+    width: 100%;
+    height: 150vh;
+    margin-bottom: 10vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .comentarios-space {
+    /* background-color: yellow; */
+    width: 95%;
+    height: 150vh;
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  
+  }
+  
+  .comentarios-space > h2 {
+    position: relative;
+    right: 5vw;
+  
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .comentarios-space .div-comentarios {
+    /* background-color: green; */
+    width: 100%;
+    height: 130vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 3vh;
+  }
+  
+  .div-comentarios .comentario1 {
+    background-color: #fff;
+    width: calc(100%);
+    height: 60%;
+  
+    border: 1px solid #9B9B9B;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-comentarios .comentario2 {
+    position: relative;
+    top: 0%;
+  
+    background-color: #fff;
+    width: calc(100%);
+    height: 60%;
+  
+    border: 1px solid #9B9B9B;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div-comentarios .comentario3 {
+    background-color: #fff;
+    width: calc(100%);
+    height: 60%;
+  
+    border: 1px solid #9B9B9B;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .comentario-box {
+    /* background-color: yellow; */
+    width: 92%;
+    height: 95%;
+  
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+  
+  .comentario-box .comentario-article {
+    /* background-color: green; */
+    width: 100%;
+    height: 60%;
+  }
+  
+  .comentario-box .comentario-article > p {
+    color: #000;
+    font-size: 1.15rem;
+    font-weight: 500;
+  
+    margin: 2vh 0;
+  }
+  
+  .comentario-box .perfil-comentario {
+    /* background-color: red; */
+    width: 100%;
+    height: 40%;
+  
+    display: flex;
+    align-items: end;
+    justify-content: left;
+  
+    gap: 1rem;
+  }
+  
+  .perfil-comentario .perfil-img {
+    /* background-color: blue; */
+    width: 5rem;
+    height: 5rem;
+  
+   
+  }
+  
+  .perfil-img img {
+    width: 100%;
+    height: 100%;
+  
+    border-radius: 50%;
+  }
+  
+  .perfil-comentario .perfil-name {
+    /* background-color: green; */
+    width: 60%;
+    height: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  .perfil-name h5 {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+  
+    margin: .1rem 0;
+  }
+  
+  .perfil-name p {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+  
+    margin: .1rem 0;
+  }
+  
+  .servicios-section {
+    position: relative;
+    /* top: 125vh; */
+    background-color:  #E53F15;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  
+  .servicios-section h1 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .services-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    /* background-color: black; */
+    width: 95%;
+    height: 50vh;
+  
+    gap: 4vw;
+  }
+  
+  .icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+  }
+  
+  .icon-item img {
+    width: 15vw;
+    height: auto;
+  }
+  
+  .icon-item h3 {
+    color: #fff;
+    font-size: .8em;
+    text-align: center;
+  }
+  
+  .footerHome {
+    position: relative;
+    /* top: 125vh; */
+  }
+}

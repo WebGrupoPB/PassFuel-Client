@@ -37,7 +37,7 @@
     font-weight: 500;
   }
 
-  .navbar-links a.active {
+  /* .navbar-links a.active {
     text-decoration: underline;
     text-decoration-color: rgb(252, 193, 44);
     text-decoration-thickness: 3px;
@@ -51,7 +51,23 @@
     ); 
     
     transition: color 0.3s ease, text-decoration-color 0.3s ease; 
-  }
+  } */
+
+.navbar-links a.active,
+.navbar-links a[data-section-id='active'] {
+  text-decoration: underline;
+  text-decoration-color: rgb(252, 193, 44);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+  color: #fff;
+  background-clip: text;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(252, 193, 44, 1) 100%,
+    rgba(252, 193, 44, 1) 100%
+  );
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
   
 
   .navbar-links a:last-child {
@@ -80,7 +96,7 @@
 
 
 /*************** Pantallas Desktop/Tv o mayores 1440px *******************/
-@media (min-width: 1441px) {
+@media (min-width: 2000px) {
   .navbar-links a {
     margin-right: 40px;
     font-size: 2rem;

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
 import './styles/Footer.css';
 export const API_SERVER = '';
 
@@ -61,6 +62,11 @@ const Footer = () => {
     };
 
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+
     return (
 
         <footer>
@@ -79,6 +85,7 @@ const Footer = () => {
                             <img src={instagramBtn} alt="Instagram" className='socialMediaImgFooter' />
                         </a>
                     </div>
+                    
                     <h3>Horarios</h3>
                     <div>
                         <img src={squareclock} alt="reloj" className='relojImgFooter' />
@@ -87,9 +94,9 @@ const Footer = () => {
                 </div>
 
                 <div className='footerLogo'>
-                    <a href="#">
+                    <NavLink to="#" onClick={scrollToTop}>
                         <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/Pass-Logo.png" alt="passfuel-logo" />
-                    </a>
+                    </NavLink >
                 </div>
 
                 <div className='footerForms'>

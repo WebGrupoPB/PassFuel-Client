@@ -7,6 +7,8 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
   }
 
 .content {
@@ -120,7 +122,7 @@ footer {
 
 
 /*************** Pantallas Desktop/Tv o mayores 1440px *******************/
-@media (min-width: 1441px) {  
+@media (min-width: 2000px) {  
     footer p {
         font-size: 2rem;
       }
@@ -267,6 +269,9 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+
+        padding-top: 2vh;
+        padding-bottom: 2vh;
       }
     
 
@@ -304,10 +309,17 @@ footer {
         gap: 12px;
     }
 
-    .footerInfo > div > img {
-        width: 8vw;
+    .socialMediaImgFooter {
+        width: 10vw;
         height: auto;
     }
+    
+    .relojImgFooter {
+        width: 5vw;
+        height: auto;
+    }
+
+
     
     .footerInfo div h3{
         position: absolute;
@@ -439,19 +451,16 @@ footer {
 
     
     .socialMediaImgFooter {
-        width: 10vw;
+        width: 15vw;
         height: auto;
     }
     
     .relojImgFooter {
-        width: 5vw;
+        width: 7vw;
         height: auto;
     }
 
-    .footerSocialMedia {
-        width: 10vw !important;
-        height: auto;
-    }
+
     
     .footerInfo div h3{
         position: absolute;
