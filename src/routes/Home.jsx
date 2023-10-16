@@ -78,8 +78,8 @@ const Home = () => {
                   <h2>Misión</h2>  
                   <p>
                     Nuestra misión es ser el <b>proveedor</b> de combustible y servicios de <b>primera elección</b> para 
-                    conductores y viajeros en toda <b>Guatemala</b>. Nos comprometemos a ofrecer <b>combustibles</b> 
-                    de la más <b>alta calidad</b> y servicios excepcionales que <b>optimicen el rendimiento</b> de los 
+                    conductores y viajeros en toda <b>Guatemala</b>. Nos comprometemos a ofrecer <b>combustibles</b> de 
+                    la más <b>alta calidad</b> y servicios excepcionales que <b>optimicen el rendimiento</b> de los 
                     vehículos y mejoren la <b>experiencia</b> en carretera.
                   </p>
                 </div>
@@ -114,7 +114,7 @@ const Home = () => {
             </article>
           </section>
 
-          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' id='estaciones'/>
+          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='hidden-id' id='estaciones'/>
 
           <section className='ubicaciones-section'>
             
@@ -123,7 +123,7 @@ const Home = () => {
               <div className='text-container'>
                 <img src={gpsIcon} alt="gps-icon" />
 
-                <h1>Encuentra tu <span className='span-ubi'>estacion</span></h1>
+                <h1>Encuentra tu <span className='span-ubi'>estación</span></h1>
 
                 <p>
                   Selecciona tu <span className='span-ubi'>ubicación</span> y filtra tu <span className='span-ubi'>Estación de Servicio</span> más cercana
@@ -156,8 +156,8 @@ const Home = () => {
                 
                 <h2>Calidad</h2>  
                 <p>
-                  Entre nuestros <b>valores</b> tenemos como prioridad la transparencia y la honestidad, contamos con una excelente atención al cliente.
-                  Contamos con la mejor higiene y limpieza que puedas imaginar cumpliendo las normativas.
+                  Contamos con la mejor <b>higiene</b> y <b>limpieza</b> que puedas imaginar, 
+                  cumpliendo con todas las normativas de calidad.
                 </p>
                 
               </div>
@@ -178,10 +178,10 @@ const Home = () => {
           </section>
 
 
-          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='separador-pass' id='promocion'/>
+          <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/separadorPass.png" alt="separador-pass" className='hidden-id' id='promocion'/>
 
           <section className='promocion-container'>
-            <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/lubricante-promociones.png" alt="lubricante-promociones" className='lubricante-promociones' />
+            {/* <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/lubricante-promociones.png" alt="lubricante-promociones" className='lubricante-promociones' />
             
             <div className='text-promociones' >
               
@@ -197,7 +197,7 @@ const Home = () => {
               
 
               <a href="http://" target="_blank"><span>ver más</span></a>
-            </div>
+            </div> */}
 
           </section>
 
@@ -210,21 +210,18 @@ const Home = () => {
                   <article className='comentario-box'>
                     <article className='comentario-article'>
                       <p>
-                        Me pareció una estación muy limpia
-                        segura y ordenada en todos los aspectos,
-                        también los trabajadores fueron muy 
-                        amables al ofrecerme ayuda en chequear mi
-                        aceite y calibrar mis llantas.
+                        Esta muy limpio fue una agradable sorpresa encontrar lo así y con 
+                        todo lo necesario para utilizar. Muchas gracias
                       </p>
                     </article>
 
                     <header className='perfil-comentario'>
                       <div className='perfil-img'>
-                        <img src="https://s3.amazonaws.com/tango.store/empleos/empleoPerfil.png" alt="comentario-profile" />
+                        <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/female-profile.jpg" alt="comentario-profile" />
                       </div>
 
                       <div className='perfil-name'>
-                        <h5>Andres Tobar</h5>
+                        <h5>Loren Loren</h5>
                         <p>08/2023</p>
                       </div>
                     </header>
@@ -235,21 +232,17 @@ const Home = () => {
                   <article className='comentario-box'>
                     <article className='comentario-article'>
                       <p>
-                        Me pareció una estación muy limpia
-                        segura y ordenada en todos los aspectos,
-                        también los trabajadores fueron muy 
-                        amables al ofrecerme ayuda en chequear mi
-                        aceite y calibrar mis llantas.
+                        Los baños estaban muy bien, ese es un detalle importante para el cliente. Gracias
                       </p>
                     </article>
 
                     <header className='perfil-comentario'>
                       <div className='perfil-img'>
-                        <img src="https://s3.amazonaws.com/tango.store/empleos/empleoPerfil.png" alt="comentario-profile" />
+                        <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/male-profile.jpg" alt="comentario-profile" />
                       </div>
 
                       <div className='perfil-name'>
-                        <h5>Andres Tobar</h5>
+                        <h5>Esteban A.</h5>
                         <p>08/2023</p>
                       </div>
                     </header>
@@ -260,21 +253,19 @@ const Home = () => {
                   <article className='comentario-box'>
                     <article className='comentario-article'>
                       <p>
-                        Me pareció una estación muy limpia
-                        segura y ordenada en todos los aspectos,
-                        también los trabajadores fueron muy 
-                        amables al ofrecerme ayuda en chequear mi
-                        aceite y calibrar mis llantas.
+                        La persona que me atendio se llama Ilmer, excelente actitud y servicio.
+
+                        Felicitaciones por el buen servicio
                       </p>
                     </article>
 
                     <header className='perfil-comentario'>
                       <div className='perfil-img'>
-                        <img src="https://s3.amazonaws.com/tango.store/empleos/empleoPerfil.png" alt="comentario-profile" />
+                        <img src="https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/general/male-profile.jpg" alt="comentario-profile" />
                       </div>
 
                       <div className='perfil-name'>
-                        <h5>Andres Tobar</h5>
+                        <h5>Sergio Estrada</h5>
                         <p>08/2023</p>
                       </div>
                     </header>

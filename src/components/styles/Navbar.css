@@ -53,7 +53,7 @@
     transition: color 0.3s ease, text-decoration-color 0.3s ease; 
   } */
 
-.navbar-links a.active,
+/* .navbar-links a.active,
 .navbar-links a[data-section-id='active'] {
   text-decoration: underline;
   text-decoration-color: rgb(252, 193, 44);
@@ -67,7 +67,7 @@
     rgba(252, 193, 44, 1) 100%
   );
   transition: color 0.3s ease, text-decoration-color 0.3s ease;
-}
+} */
   
 
   .navbar-links a:last-child {

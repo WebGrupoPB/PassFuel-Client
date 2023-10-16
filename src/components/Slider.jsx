@@ -20,7 +20,7 @@ const InfoHeroHome = () => (
         </p>
 
         <br />
-        <p className="panel-info">contactanos</p>
+        <p className="panel-info">contáctanos</p>
         <p className="panel-info"><i>info@passfuel.com</i></p>
 
       </div>
