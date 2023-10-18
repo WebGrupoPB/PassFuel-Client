@@ -21,7 +21,7 @@ const InfoHeroHome = () => (
 
         <br />
         <p className="panel-info">contáctanos</p>
-        <p className="panel-info"><i>info@passfuel.com</i></p>
+        <p className="panel-info"><a href="mailto:info@passfuel.com" className='info-correo'><i>info@passfuel.com</i></a></p>
 
       </div>
 );

@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Slider from '../components/Slider';
 import Footer from '../components/Footer';
-
+import Decoradores from '../components/Decoradores';
 
 import './styles/Home.css';
 
@@ -31,6 +31,8 @@ const Home = () => {
         </header>
 
         <main>
+
+          <Decoradores />
 
           <div className='hero-space' id="hero-space">
             <section className='hero-slider'>
@@ -168,8 +170,8 @@ const Home = () => {
               <div className='articuloText4'>
                 <h2>Seguridad</h2>  
                 <p>
-                  Al respecto de nuestra <b>seguridad</b> contamos con cámaras de vigilancia a todo momento que son 
-                  monitoreados a tiempo real  y contamos con personal capacitado para actuar en casos de <b>emergencia</b>.
+                  Al respecto de nuestra <b>seguridad</b> contamos con cámaras de vigilancia que son 
+                  monitoreadas a tiempo real  y contamos con personal capacitado para actuar en casos de <b>emergencia</b>.
                 </p>
               </div>
             </div>
