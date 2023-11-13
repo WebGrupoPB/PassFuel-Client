@@ -116,7 +116,7 @@ const Navbar = () => {
             Servicios
           </a>
 
-            <a href="#store">
+            <a href="https://tango.store/" target='_blank'>
               <span className='storeButton'>Tango Store <img src={paidSvg} alt="canasta-compra" /> </span>
             </a>
           </div>
@@ -159,7 +159,7 @@ const Navbar = () => {
 
       <div className='menuDesktop'>
         <div className="navbar-links">
-          <a href="#">
+          <a href="https://tango.store/" target='_blank'>
             <span className='storeButton'>Tango Store <img src={paidSvg} alt="canasta-compra" /> </span>
           </a>
         </div>
